@@ -1,0 +1,12 @@
+# System files
+.qodo/
+.vscode/
+.DS_Store
+
+# Temporary files
+tmp/
+*.log
+
+# Sensitive or generated files
+.env
+node_modules/
