@@ -1508,7 +1508,7 @@ body.top-bar-hidden .hero {
     width: 100%;
     display: flex !important;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: -44px;
     order: -1;
     padding: 40px 0;
     /* background: url('./Images/hero-bg.png') center/cover; */
@@ -1536,7 +1536,7 @@ body.top-bar-hidden .hero {
   }
 
   .video-thumb {
-    width: 100%;
+    width: 200px;
     height: 100%;
     object-fit: contain;
     transform: rotate(0deg);
