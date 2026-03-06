@@ -94,11 +94,18 @@ body {
 
 /* ================= HEADER ================= */
 .main-header {
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 36px;
+  /* Offset for the white top-bar */
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 10001;
+  /* Stay just below the top-bar (10002) but above everything else */
+  transition: top 0.3s ease;
+}
+
+body.top-bar-hidden .main-header {
+  top: 0;
 }
 
 /* Layer 1: Adidas Top Bar */
